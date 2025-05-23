@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import { Outlet } from "react-router-dom";
 import SplashCursor from "../components/SplashCursor";
 import ScrollToTopButton from "../components/ScrollToTopButton";
