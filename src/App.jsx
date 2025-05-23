@@ -5,9 +5,11 @@ import './assets/tailwind.css';
 // import Forgot from './pages/Auth/Forgot';
 import { BreadcrumbProvider } from './context/BreadcrumbContext';
 import { Routes, Route } from 'react-router-dom';
-import MainLayout from './layouts/mainLayout';
-import AuthLayout from './layouts/AuthLayout';
-import GuestLayout from './layouts/GuestLayout';
+
+import MainLayout from './layouts/MainLayout.jsx';
+import AuthLayout from './layouts/AuthLayout.jsx';
+import GuestLayout from './layouts/GuestLayout.jsx';
+
 import Loading from './components/Loading'; // ← ini dia
 import ErrorPage from './components/ErrorPage.jsx'; // ⬅ import error page
 import ErrorBoundary from './components/ErrorBoundary.jsx';
